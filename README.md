@@ -43,7 +43,7 @@
     
 - moviesales = 일별 박스오피스 정보 (개봉일부터 어제 정보까지 모두 저장)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01f846cf-2db0-4ed7-b34b-40b2095918a6/Untitled.png)
+    ![Untitled](/img/dbinfo2.png)
     
 - movieinfo의 movieCd 속성과 moviesales의 movieCd 속성으로 외래키 참조 가능
 
@@ -56,13 +56,13 @@
 
 1. **일일 매출액**
 
-![1.PNG](/img/1.png)
+![1.PNG](/img/1.PNG)
 
 박스오피스 순위 (발표 자료 작성 기준 10월 11일) 일일 매출액.
 
 1. **누적 매출액**
 
-![2.PNG](/img/2.png)
+![2.PNG](/img/2.PNG)
 
 - 7월 28일 개봉한 모가디슈는 10월 11일까지 스크린 독과점 상태
 - 한국 영화의 스크린 독점율이 높지만, 외국 상업 영화(샹치, 007)도 무시할 수 없음
@@ -70,7 +70,7 @@
 
 1. **전일대비 매출액 증감**
 
-![3.PNG](/img/3.png)
+![3.PNG](/img/3.PNG)
 
 - 평일 대비 주말 매출이 높은 까닭에 모두 증가한 상태.
 
