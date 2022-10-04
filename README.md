@@ -5,7 +5,7 @@
 
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a71ad0f-8f69-479d-8658-be9a56c80d8c/Untitled.png)
+![Untitled](/img/index.png)
 
 1. **상영 중인 영화** 확인. → 어제 박스오피스 순위로 확인. *(매 자정 정보 업데이트)*
 2. 상영 중인 영화 중 매출 예상을 해보고 싶은 **영화 고르기**.
@@ -17,13 +17,13 @@
 
 ---
 
-![flow.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4b6a5eac-78c3-4257-b57c-04935607a472/flow.png)
+![flow.png](/flow.png)
 
 1. **사용한 데이터 세트**
     
     영화진흥위원회에서 제공하는 OPEN API 사용.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/316daede-aaa9-4c77-ac1b-b21a3d22ea26/Untitled.png)
+    ![Untitled](/datainfo.png)
     
     - **박스오피스 정보**
         
@@ -35,11 +35,11 @@
         
 2. **데이터베이스 Sqlite**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/887b303d-d5b3-4fc1-9082-992940a91435/Untitled.png)
+![Untitled](/img/dbinfo.png)
 
 - movieinfo = 영화 목록에서 가져온 정보
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9c0769e-9dc7-40b9-9fb5-a1f8ec8c5bdf/Untitled.png)
+    ![Untitled](/img/dbinfo1.png)
     
 - moviesales = 일별 박스오피스 정보 (개봉일부터 어제 정보까지 모두 저장)
     
@@ -56,13 +56,13 @@
 
 1. **일일 매출액**
 
-![1.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d65aa185-c554-46e2-bd61-cf6db91722b4/1.png)
+![1.PNG](/img/1.png)
 
 박스오피스 순위 (발표 자료 작성 기준 10월 11일) 일일 매출액.
 
 1. **누적 매출액**
 
-![2.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5861ee56-5bc6-4c65-9cd4-e14b73d0bddc/2.png)
+![2.PNG](/img/2.png)
 
 - 7월 28일 개봉한 모가디슈는 10월 11일까지 스크린 독과점 상태
 - 한국 영화의 스크린 독점율이 높지만, 외국 상업 영화(샹치, 007)도 무시할 수 없음
@@ -70,7 +70,7 @@
 
 1. **전일대비 매출액 증감**
 
-![3.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/678d69f0-d40b-46a4-aae6-f1faa270ddef/3.png)
+![3.PNG](/img/3.png)
 
 - 평일 대비 주말 매출이 높은 까닭에 모두 증가한 상태.
 
