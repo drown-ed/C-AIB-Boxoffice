@@ -17,7 +17,7 @@
 
 ---
 
-![flow.png](/img/flow.png)
+![flow.png](/img/flow.jph)
 
 1. **사용한 데이터 세트**
     
